@@ -1,0 +1,138 @@
+.woman{
+    height: 20px;
+    width: 20px;
+}
+.woman-button{
+    border-radius: 10px;
+    height: 30px;
+    background-color: rgb(241, 199, 206);
+    border: solid 3px rgb(241, 199, 206);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+.men-button{
+    border-radius: 10px;
+    height: 30px;
+    background-color: rgb(132, 193, 243);
+    border: solid 3px rgb(132, 193, 243);
+    display: flex;
+    flex-direction: row;
+    margin-top: 8px;
+    margin-left: 20px;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+.searchbar{
+    height: 30px;
+    width: 400px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;   
+    margin-top: 8px; 
+    margin-left: 300px;
+    margin-right: 300px;
+    align-items: center;
+}
+.options{
+    display: flex;
+    flex-direction: row;
+}
+.hori{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+.verti{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.yellow{
+    background-color: rgb(167, 139, 98);
+    width: 400px;
+    height: 130px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.yellowtext{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.blue{
+    background-color: rgb(113, 187, 247);
+    width: 400px;
+    height: 130px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.bluetext{
+    padding: 30px;
+    padding-top: 15px;
+}
+.purple{
+    background-color: rgb(165, 165, 255);
+    height: 260px;
+    width: 150px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.purplecost{
+    display: flex;
+    flex-direction: row;
+}
+.purple-items{
+    padding: 10px;
+}
+.white{
+    background-color: rgb(190, 190, 190);
+    height: 260px;
+    width: 150px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.whitecost{
+    display: flex;
+    flex-direction: row;
+}
+.white-items{
+    padding: 10px;
+}
+.new{
+   display: flex;
+   flex-direction: column;
+}
+.new-options{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.option{
+   height: 250px;
+   width: 300px;
+   padding: 20px;
+}
+.costsale{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+}
